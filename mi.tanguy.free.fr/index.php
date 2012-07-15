@@ -10,14 +10,80 @@ and open the template in the editor.
         <title></title>
     </head>
     <body>
-        <div id="main">
+        <div id="main"><!--main conten of the web paget-->
             <div id="header">
-                header
+
+                <ul id=sliderShows>
+                    <li class="slideShows">
+                        <div >
+                            <img src="Images/Small/JeuxNapoleonIII/roidetrefle.jpg"/>
+                        </div>
+                    </li>
+                    <li class="slideShows">
+                        <div >
+                            <img src="Images/Small/JeuxNapoleonIII/damedetrefle.jpg"/>
+                        </div>            
+                    </li>
+                    <li class="slideShows">
+                        <div >
+                            <img src="Images/Small/JeuxNapoleonIII/roidecarreaux.jpg"/>
+                        </div>
+                    </li>
+                    <li class="slideShows">
+                        <div >
+                            <img src="Images/Small/JeuxNapoleonIII/damedecarreaux.jpg"/>
+                        </div>            
+                    </li>
+                    <li class="slideShows">
+                        <div >
+                            <img src="Images/JeuxNapoleonIII/small/roidepic.jpg"/>
+                        </div>
+                    </li>
+                    <li class="slideShows">
+                        <div >
+                            <img src="Images/Small/JeuxNapoleonIII/damedepic.jpg"/>
+                        </div>            
+                    </li>
+                    <li class="slideShows">
+                        <div >
+                            <img src="Images/Small/JeuxNapoleonIII/roidecoeur.jpg"/>
+                        </div>
+                    </li>
+                    <li class="slideShows">
+                        <div >
+                            <img src="/Images/Small/JeuxNapoleonIII/damedecoeur.jpg"/>
+                        </div>            
+                    </li>
+                    <li class="slideShows">
+                        <div >
+                            <img src="Images/Small/JeuxNapoleonIII/valetdetrefle.jpg"/>
+                        </div>
+                    </li>
+                    <li class="slideShows">
+                        <div >
+                            <img src="Images/Small/JeuxNapoleonIII/asdetrefle.jpg"/>
+                        </div>            
+                    </li>
+                    <li class="slideShows">
+                        <div >
+                            <img src="Images/Small/JeuxNapoleonIII/valetdecarreaux.jpg"/>
+                        </div>
+                    </li>
+                    <li class="slideShows">
+                        <div >
+                            <img src="Images/Small/JeuxNapoleonIII/asdecareaux.jpg"/>
+                        </div>            
+                    </li>
+                </ul>
             </div>
 
             <div id="indexLeftColumn">
+                <!--                debut du menu de navigation-->
                 <div id="blockmenu">
-                    
+                    <ul id="menu" >
+                        <li><a href="index.php">Page d'accueil</a></li>
+                    </ul>
+
                 </div>
             </div>
 

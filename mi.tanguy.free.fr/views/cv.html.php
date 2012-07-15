@@ -172,7 +172,7 @@ and open the template in the editor.
                 Montgeron </br>
             </div>
 
-            <div id="footer">
+            <div id="cvfooter">
                 <div class="cvColumnTitle"> Centres d’intérêts :</div> </br>
                 Passionné d’Informatique</br>
                 Lecture (Science Fiction : Barjavel, Huxley, …), revue
