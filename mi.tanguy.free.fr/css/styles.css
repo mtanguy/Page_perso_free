@@ -1,31 +1,31 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    width: 850px;
+    width: 100%;
     text-align: left;
-    margin: 20px auto;
+    margin: 2% auto;
 }
 /*index.php*/
 #header {
-    height: 250px;
+    height: 8%;
     background: #aaa;
 }
 
 #footer {
-    height: 60px;
+    height: 8%;
     clear: left;
     background: #aaa;
 }
 
 #indexLeftColumn {
-    height: 400px;
-    width: 350px;
+    height: 39%;
+    width: 15%;
     float: left;
     background: #ccc;
 }
 
 #indexRightColumn {
-    height: 400px;
-    width: 500px;
+    height: 39%;
+    width: 68%;
     float: left;
     background: #eee;
 }
@@ -33,38 +33,38 @@ body {
 #maincv { background: #eee }
 
 #headercv {
-    height: 350px;
+    height: 34%;
     background: #aaa;
 }
 
 #logo {
-    height: 100px;
-    width: 820px;
+    height: 10%;
+    width: 80%;
     float: left;
-    margin-left: 15px;
-    margin-top: 10px;
+    margin-left: 1%;
+    margin-top: 1%;
     background: #aaa;
 }
 
 #logoTexttitle {
-    margin:0px 0 0 70px;
+    margin:0 0 0 7%;
     /*font styles apply to text within alt tags */
     font-family: 'American Typewriter', Courier,monospace;
-    font-size: 50px;
+    font-size: 5%;
     color: #333;
     text-align:center;
 }
 #logoTextdetail{
     /*font styles apply to text within alt tags */
     font-family: 'American Typewriter', Courier,monospace;
-    font-size: 25px;
+    font-size: 2%;
     color: blue;
     text-align:center;
     background: #aaa;
 }
 #widgetBar {
-    height:190px;
-    width: 850px;
+    height:19%;
+    width: 83%;
     float: left;
     background: #ccc;
 }
@@ -75,52 +75,58 @@ body {
     float: right;
 }
 .headerWidget {
-    width:420px;
-    height:160px;
-    margin: 20px 2px;
+    width:41%;
+    height:16%;
+    margin:  1%;
     font-size: small;
-    line-height:25px;
+    line-height:2%;
     background: #aaa;
 }
 
-#footer {
-    height: 150px;
+#cvfooter {
+    height: 15%;
     clear: left;
     background: #ccc;
 }
 
 #cvLeftColumn {
-    height:970px;
-    width:850px;
+    height:95%;
+    width:83%;
     float: left;
     background:#ccc;
 }
 #cvMiddleColumn {
-    height:800px;
-    width: 850px;
+    height:78%;
+    width: 83%;
     float:left;
     background: #ccc;
 }
 
 #cvRightColumn {
-    height: 300px;
-    width: 850px;
+    height: 29%;
+    width: 83%;
     float:left;
     background: #ccc;
 }
 
 .cvColumnTitle {
-    margin-left: 10px;
-    margin-top: 10px;
-    width:830px;
+    margin-left: 1%;
+    margin-top: 1%;
+    width:81%;
     color: #333;
     background:#aaa;
     text-align:center;
 }
 /* table de neuf*/
+#explaintext{
+    float: right;
+    width: 20%;
+    height: 20%;
+}
 #table{
-    width: 200px;
-    height: 200px;
+    width: 20%;
+    height: 20%;
+    float: left;
 }
 #leftmember{
     float: left;
@@ -128,8 +134,9 @@ body {
 }
 .multiplicateur{
     width: 100%;
-    height:20px;
-    text-align: center;   
+    height:2%;
+    text-align: center;
+    margin-bottom: 5px;
 }
 #rightmember{
     float: right;
@@ -146,12 +153,95 @@ body {
 .dizaine{
     width: 20px;
     height:20px;
+    background: burlywood;
+    text-align: center;
+    margin-bottom: 5px;
+}
+/*on hover mouse*/
+.dizaine:hover{
+    width: 20px;
+    height:20px;
     background: red;
     text-align: center;
+    margin-bottom: 5px;
 }
 .unite{
+    background:burlywood;;
+    width: 20px;
+    height:20px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+/*on hover mouse*/
+.unite:hover{
     background:#f0f;
     width: 20px;
     height:20px;
     text-align: center;
+    margin-bottom: 5px;
 }
+/*slider left shows in the header*/
+ #sliderShows{
+    display: table;
+    width:700px;
+    -webkit-animation: slideAnim 20s ease 0s infinite;
+       -moz-animation: slideAnim 20s ease 0s infinite;
+        -ms-animation: slideAnim 20s ease 0s infinite;
+         -o-animation: slideAnim 20s ease 0s infinite;
+            animation: slideAnim 20s ease 0s infinite;
+}
+
+ul li{
+    display: table-cell;
+    width:300px;
+}
+/*slider left shows function*/
+@keyframes slideAnim{
+from,4% {margin-left:00px;}
+5%,11% {margin-left:-50px;}
+15%,26%{margin-left:-100px;}
+30%,41%{margin-left:-150px;}
+45%,56%{margin-left:-200px;}
+65%,76%{margin-left:-250px;}
+80%,91%{margin-left:-300px;}
+99.99%{margin-left:-700px;}
+}
+@-webkit-keyframes slideAnim{from,4% {margin-left:00px;}
+5%,11% {margin-left:-50px;}
+15%,26%{margin-left:-100px;}
+30%,41%{margin-left:-150px;}
+45%,56%{margin-left:-200px;}
+65%,76%{margin-left:-250px;}
+80%,91%{margin-left:-300px;}
+99.99%{margin-left:-700px;}
+}
+@-moz-keyframes slideAnim{
+from,4% {margin-left:00px;}
+5%,11% {margin-left:-50px;}
+15%,26%{margin-left:-100px;}
+30%,41%{margin-left:-150px;}
+45%,56%{margin-left:-200px;}
+65%,76%{margin-left:-250px;}
+80%,91%{margin-left:-300px;}
+99.99%{margin-left:-700px;}
+}
+
+@-ms-keyframes slideAnim{from,4% {margin-left:00px;}
+5%,11% {margin-left:-50px;}
+15%,26%{margin-left:-100px;}
+30%,41%{margin-left:-150px;}
+45%,56%{margin-left:-200px;}
+65%,76%{margin-left:-250px;}
+80%,91%{margin-left:-300px;}
+99.99%{margin-left:-700px;}
+}
+@-o-keyframes slideAnim{from,4% {margin-left:00px;}
+5%,11% {margin-left:-50px;}
+15%,26%{margin-left:-100px;}
+30%,41%{margin-left:-150px;}
+45%,56%{margin-left:-200px;}
+65%,76%{margin-left:-250px;}
+80%,91%{margin-left:-300px;}
+99.99%{margin-left:-700px;}
+}
+
