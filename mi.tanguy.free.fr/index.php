@@ -50,17 +50,18 @@ and open the template in the editor.
                         $tabdizaines[] = $dizaine++;
                         $tabunites[] = $unite--;
                     }
-                    if ($_GET['tablede9']=='tablede9'){
+                    
+                }
+                if ($_GET['menuLink']=='tablede9'){
                       include 'views/tablede9.html.php';
                     }
                     
-//                    if ($_GET['Le XIX']=='Le XIX'){
+//                    if ($_GET['menuLink']=='Le XIX'){
 //                       echo "Nommez les personnes ci-dessous"; 
 //                    }
-                    if ($_GET['Qui suis-je']=='Qui suis-je'){
+                    if ($_GET['menuLink']=='Qui suis-je'){
                       include 'views/cv.html.php';
                     }
-                }
                 ?>
 
 
