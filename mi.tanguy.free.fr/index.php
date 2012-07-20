@@ -13,13 +13,13 @@ and open the template in the editor.
         <div id="main"><!--main conten of the web paget-->
 
             <div id="header">
-                include 'views/sliderShows.html.php';
-            </div>
+                <?php include 'views/sliderShows.html.php'; ?>
+            </div> 
 
             <div id="indexLeftColumn">
                 <!--                debut du menu de navigation-->
                 <div id="blockmenu">
-                    include 'views/menu.html.php';
+                    <?php include 'views/menu.html.php';?>
                 </div>
             </div>
 
