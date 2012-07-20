@@ -50,9 +50,7 @@ and open the template in the editor.
                         $tabdizaines[] = $dizaine++;
                         $tabunites[] = $unite--;
                     }
-                    
-                }
-                if ($_GET['menuLink']=='tablede9'){
+                                    if ($_GET['menuLink']=='tablede9'){
                       include 'views/tablede9.html.php';
                     }
                     
@@ -62,6 +60,8 @@ and open the template in the editor.
                     if ($_GET['menuLink']=='Qui suis-je'){
                       include 'views/cv.html.php';
                     }
+                }
+
                 ?>
 
 
