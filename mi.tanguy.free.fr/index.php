@@ -11,18 +11,15 @@ and open the template in the editor.
     </head>
     <body>
         <div id="main"><!--main conten of the web paget-->
+
             <div id="header">
                 include 'views/sliderShows.html.php';
-               
             </div>
 
             <div id="indexLeftColumn">
                 <!--                debut du menu de navigation-->
                 <div id="blockmenu">
-                    <ul id="menu" >
-                        <li><a href="index.php">Page d'accueil</a></li>
-                    </ul>
-
+                    include 'views/menu.html.php';
                 </div>
             </div>
 
@@ -55,6 +52,7 @@ and open the template in the editor.
                     }
                     include 'views/tablede9.html.php';
                 }
+                
                 ?>
 
 
