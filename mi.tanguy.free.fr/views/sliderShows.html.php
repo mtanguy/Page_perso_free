@@ -32,7 +32,7 @@ and open the template in the editor.
             </li>
             <li class="slideShows">
                 <div >
-                    <img src="Images/JeuxNapoleonIII/small/roidepic.jpg"/>
+                    <img src="Images/Small/JeuxNapoleonIII/roidepic.jpg"/>
                 </div>
             </li>
             <li class="slideShows">
